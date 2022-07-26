@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+* {
+    font-family: 'Oxygen', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(../img/4909528.png);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+hr {
+    background-color: skyblue;
+    height: 2px;
+    border: none;
+    opacity: 40%;
+}
+#main-div {
+    overflow: auto;
+    background-color: rgb(61, 61, 61);
+    height: 770px;
+    width: 85%;
+    border-radius: 30px;
+    margin-top: 3.4%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    color: white;
+    font-size: 35px;
+}
+#left-div{
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+#right-div {
+    background-color: rgb(29, 29, 29);
+    border-radius: 30px 30px;
+    padding: 35px;
+    overflow-y: auto;
+    max-height: 100%;  
+}
+#right-div::-webkit-scrollbar{
+    display: none;
+}
+#side-panel {
+    position: absolute;
+    top: 7.8%;
+    right: 0.2%;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(29, 29, 29);
+    border-radius: 50px;
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px;
+    padding: 30px;
+    transition: 0.5s;
+}
+#abi-main-img{
+    height: 40%;
+    margin-top: 7%;
+}
+.med-text {
+    font-size: 20px;
+}
+#right-div-sub{
+    display: grid ;
+    grid-template-columns: 60% 30%; 
+    font-size: 20px;
+}
+.tab-head {
+    text-align: left;
+    color: skyblue;
+}
+.side-panel-img{
+    height: 50px;
+    width: auto;
+    filter: grayscale();
+}
+.side-panel-img:hover {
+    filter: saturate();
+}
+#home-page {
+    height: 770px;
+    text-align: center;
+    padding-top: 17%;
+}
+#download-cv{
+    height: 50px;
+    width: 170px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#download-cv:hover{
+    background-color: transparent
+
+    t\~~
+    border: 1px solid white;
+    color: white;
+}
+.side-panel-text{
+    padding: 10px;
+    font-size: large;
+    display: none;
+}
+#side-panel > a {
+    display: flex   ;
+}
+#contact-sub {
+    margin-top: 170px;
+}
+#contact-sub > a >img{
+    height: 30px;
+    width: auto;
+}
+#work-page > a > img{
+    height: 200px;
+    
+}
+#contact-page{
+    font-size: large;
+}
+#contact-div-sub{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+
+.contact-page-img{
+    height: 50px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Abisha's Personal Portfolio</title>
+</head>
+<body>
+        <div id="main-div">
+            <div id="left-div">
+                <i class="fa fa-icon-linkedin"></i>
+                <img src="assets/img/abi-circle (1).png" id="abi-main-img">
+                <p>ABISHA ANTONY</p>
+                <p style="font-size: 20px; color: rgb(169, 169, 169);">Software Developer</p>
+                <div id="contact-sub">
+                    <a href="https://www.facebook.com"><img src="./assets/img/facebook.png" alt=""></a>
+                    <a href="https://twitter.com/antony_abisha"><img src="./assets/img/twitter.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/abisha-antony-0b8579229/"><img src="./assets/img/linkedin.png" alt=""></a>
+                    <p style="font-size: 20px; color: rgb(169, 169, 169);">&#169; 2022 Abisha Antony</p>
+                </div>
+            </div>
+            <div id="right-div">
+                <div id="home-page">
+                    <p style="font-size: 70px;">ABISHA ANTONY</p>
+                    <p>I'm a Software Developer</p>
+                    <a href="./assets/img/RESUME.pdf" download><button id="download-cv"><b>Download CV</b></button></a>
+                </div>
+                <div id="about-page">
+                    <hr>
+                    <div style="display: flex;"><h3>About</h3>&nbsp;  <h3 style="color: skyblue;">Me</h3></div>
+                <div id="right-div-sub">
+                    <div>
+                        <p class="med-text"> I am Abisha Antony. I would define my personality as gregarious and outgoing. 
+                            I studied Math and Biology in higher secondary , but stepped on to a different path to pursue my dream job.
+                            I am adept at dancing and I love listening to songs. In my leisure time, I watch movies and do brain teasers.
+                         Empathy, patience, friendliness and enthusiasm are my strengths.</p>
+                    </div>
+                   <div>
+                    <table style="margin-top: 20px; margin-left:30px;">
+                        <tr>
+                            <th class="tab-head">Birthday</th> <td>3 June 2003</td>
+                        </tr>
+                                                                                                                                                          
+                        <tr>
+                            <th class="tab-head">Github</th> <td><a href="https://github.com/abisha-antony">abisha-antony</a></td>
+                        </tr>
+                        <tr>
+                            <th class="tab-head">Email</th> <td>abishaantony.v@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th class="tab-head">Phone</th> <td>+916379481526</td>
+                        </tr>
+                    </table>
+                   </div>
+                </div>
+                <hr>
+                <div style="display: flex;"><h3>My</h3>&nbsp;  <h3 style="color: skyblue;">Skills</h3></div>
+                <p class="med-text">I have learnt upto 8 languages including html,css,js,Java,MySQL,DBMS,Ruby on Rails, data structures and algorithms. I am persistent and a hardworker, here is the right example of myself. I have learnt all these programming language within 8 months and also created my own website. I am really proud of myself. I love dance so much and I do dancing wholeheartedly. I am girl of self respect and I am good at team management. I have been team leader also.  </div>
+                <div id="work-page">
+                    <hr>
+                    <div style="display: flex;"><h3>My</h3>&nbsp;  <h3 style="color: skyblue;">works</h3></div>
+                    <a href="https://danceacademyapp-ui-abishaantony.netlify.app"><img src="./assets/img/danceacademy.png" alt="project"></a>
+                    
+                </div>
+                <hr>
+                <div id="contact-page">
+                    <div style="display: flex;"><h3>Contact</h3>&nbsp;  <h3 style="color: skyblue;">me</h3></div>
+                    <div id="contact-div-sub">
+                        <a href=""><div><img src="./assets/img/facebook.png" class="contact-page-img" alt="">&nbsp;<p>Abisha</p></div></a>
+                        <a href="https://twitter.com/antony_abisha"><div><img src="./assets/img/twitter.png" class="contact-page-img" alt=""> <p>Abisha</p></div></a>
+                        <a href="https://www.linkedin.com/in/abisha-antony-0b8579229/"><div><img src="./assets/img/linkedin.png" class="contact-page-img" alt=""><p>abisha</p></div></a>
+                        <a href=""><div><img src="./assets/img/724664.png" class="contact-page-img" alt=""> <p>6379481526</p></div></a>
+                        <a href=""><div><img src="./assets/img/email.png" class="contact-page-img" alt=""> <p>abishaantony.v@gmail.com</p></div></a>
+                        
+                    </div>
+                </div>
+            </div>
+        <div id="side-panel" onmouseover="expand_sidebar()" onmouseout="collapse_sidebar()">
+            <a href="#home-page"><img src="./assets/img/home.png" alt="home" class="side-panel-img"> <p class="side-panel-text" id="st1">Home</p></a>
+            <a href="#about-page"><img src="./assets/img/user.png" alt="about-me" class="side-panel-img"><p class="side-panel-text" id="st2">About Me</p></a>
+            <a href="#work-page"><img src="./assets/img/suitcase.png" alt="work" class="side-panel-img"><p class="side-panel-text" id="st3">Work</p></a>
+            <a href="#contact-page"><img src="./assets/img/email.png" alt="contact" class="side-panel-img"><p class="side-panel-text" id="st4">Contact</p></a>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+</body>
+</html>
